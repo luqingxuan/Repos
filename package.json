@@ -1,0 +1,20 @@
+{
+  "name": "repos",
+  "version": "1.0.0",
+  "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
+  "authors": [
+    "luqingxuan"
+  ],
+  "maintainers": [
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HubSpot/tether.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+  }
+}
