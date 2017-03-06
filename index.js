@@ -13,14 +13,14 @@
 }(this, function($) {
 
     /**
-     * ele,
-     * pop,
-     * cnt,
+     * ele,dom element
+     * pop,dom element
+     * cnt,dom element
      * event,
-     * alignX: '',left/center/right/inner-right/inner-left
-     * alignY: '',top/center/bottom/inner-bottom/inner-top
-     * offsetX: '',
-     * offsetY: '',
+     * alignX: 'inner-left',one of left/center/right/inner-right/inner-left
+     * alignY: 'bottom',one of top/center/bottom/inner-bottom/inner-top
+     * offsetX: 0,
+     * offsetY: 0,
      **/
 
     // reference jquery source
