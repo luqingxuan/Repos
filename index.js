@@ -10,7 +10,7 @@
         // 浏览器全局变量(root 即 window)
         root.returnExports = factory();
     }
-}(this, function($) {
+}(this, function() {
 
     /**
      * ele,dom element
