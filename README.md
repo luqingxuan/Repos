@@ -18,3 +18,6 @@ $(input).on('focus',function(){
 ```
 and now u will see a datepicker show when input focus,
 remember i just cal the position, not care show hide datepicker, just do simple thing.
+
+by the way, it like https://github.com/HubSpot/tether,
+but i reference https://github.com/vadikom/poshytip for align rule
