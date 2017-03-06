@@ -1,4 +1,4 @@
-as it name, Repos can position element & pop elemnet show with certain rule,
+just like it's name, Repos can position element & pop element show with certain rule,
 use:
 import Repos from './index.js';
 
