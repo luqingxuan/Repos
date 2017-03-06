@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HubSpot/tether.git"
+    "url": "git@github.com:luqingxuan/Repos.git"
   },
   "license": "MIT",
   "main": "index.js",
