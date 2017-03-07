@@ -16,11 +16,11 @@
      * ele,dom element
      * pop,dom element
      * cnt,dom element
-     * event,
+     * event,dom event/jquery event
      * alignX: 'inner-left',one of left/center/right/inner-right/inner-left
      * alignY: 'bottom',one of top/center/bottom/inner-bottom/inner-top
-     * offsetX: 0,
-     * offsetY: 0,
+     * offsetX: 0,number/percent/function
+     * offsetY: 0,number/percent/function
      **/
 
     // reference jquery source
@@ -690,14 +690,14 @@
         result.offset.x = options.offsetX;
         if (typeof options.offsetX == 'function')
             result.offset.x = options.offsetX(result);
-        else if (/\%$/.test(options.offsetX))
+        else if (/\%$/.test('' + options.offsetX))
             result.offset.x = options.eleRect.width * parseFloat(options.offsetX) / 100;
 
         // offset y
         result.offset.y = options.offsetY;
         if (typeof options.offsetY == 'function')
             result.offset.y = options.offsetY(result);
-        else if (/\%$/.test(options.offsetY))
+        else if (/\%$/.test('' + options.offsetY))
             result.offset.y = options.eleRect.height * parseFloat(options.offsetY) / 100;
 
         calX(result);
